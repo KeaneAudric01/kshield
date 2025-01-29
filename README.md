@@ -46,6 +46,12 @@ To use the `kshield.sh` script, follow these steps:
     sudo ./kshield.sh
     ```
 
+- Watch live traffic with the `watch` command:
+
+    ```sh
+    watch -n 1 sudo iptables -nvL
+    ```
+
 ## Installation 🛠️
 
 ### Prerequisites
